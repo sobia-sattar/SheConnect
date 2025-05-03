@@ -1,0 +1,52 @@
+/* src/pages/EventsOpportunities.css */
+
+.events-opportunities {
+    padding: 40px 20px;
+    background: linear-gradient(to right, #f7b7d1, #f46e82); /* Soft pink gradient background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 40px auto;
+  }
+  
+  .events-opportunities h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .events-opportunities .description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .events-opportunities .events-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .events-opportunities .event-item {
+    background: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .events-opportunities .event-item h2 {
+    font-size: 1.8rem;
+    color: #f46e82;
+  }
+  
+  .events-opportunities .event-item p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  

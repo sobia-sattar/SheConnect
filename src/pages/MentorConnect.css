@@ -1,0 +1,118 @@
+.mentor-connect {
+    padding: 20px;
+    background: linear-gradient(to right, #ff8ba7, #d14d7a); /* Gradient background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px; /* Smooth rounded corners */
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .mentor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .mentor-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%; /* Default width on larger screens */
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px; /* Margin between mentor items */
+  }
+  
+  .mentor-item h3 {
+    font-size: 1.7rem;
+    color: #d14d7a;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .mentor-field {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .mentor-description {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .contact-link {
+    color: #d14d7a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* For Small Devices (Phones and smaller screens) */
+  @media (max-width: 768px) {
+    .mentor-connect {
+      padding: 15px; /* Adjust padding on small screens */
+    }
+  
+    .mentor-item {
+      width: 100%; /* Full-width for small devices */
+    }
+  
+    .section-title {
+      font-size: 2rem; /* Slightly smaller title on mobile */
+    }
+  
+    .section-description {
+      font-size: 1rem; /* Slightly smaller description */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 1.8rem; /* Further reduce title size for very small screens */
+    }
+  
+    .mentor-item {
+      padding: 15px; /* Less padding for mobile devices */
+    }
+  
+    .mentor-field {
+      font-size: 1rem; /* Reduce font size for fields */
+    }
+  
+    .mentor-description {
+      font-size: 0.9rem; /* Slightly smaller description */
+    }
+  
+    .contact-link {
+      font-size: 1rem; /* Slightly smaller contact link font size */
+    }
+  }
+  

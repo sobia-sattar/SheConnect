@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  background: linear-gradient(135deg, #f9a6c4, #f4c2d1); /* Pinkish gradient background */
+  min-height: 100vh; /* important */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.home-header {
+  margin-bottom: 50px;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700; /* Bold and larger heading */
+  color: #ffffff; /* White color for the text to contrast with the background */
+  text-transform: uppercase; /* Make the heading more prominent */
+  letter-spacing: 2px; /* Slight space between letters for elegance */
+}
+
+.brand {
+  color: #d36b99; /* A darker pink for brand name */
+}
+
+.subheading {
+  font-size: 1.4rem;
+  font-weight: 500; /* Lighter font weight for subheading */
+  margin-top: 15px;
+  color: #ffffff; /* White for better contrast */
+}
+
+.home-section {
+  margin-top: 50px;
+  opacity: 1; /* Cards are fully visible right away */
+  transition: none; /* Remove transition effect */
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #b44571; /* Light pink for section title */
+  text-transform: capitalize; /* Capitalize section titles */
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Updated width for cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px; /* Adds space between the cards */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600; /* Bold title for the card */
+  color: #f9a6c4; /* Matching pink color for card titles */
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #333333; /* Dark gray for text readability */
+}
+
+.card-icon {
+  color: #f9a6c4; /* Pink for card icon */
+  font-size: 2rem; /* Larger icon size */
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #f9a6c4, #d36b99);
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #d36b99, #f9a6c4);
+  transform: scale(1.05); /* Slight grow effect on hover */
+}
+
+.home-footer {
+  margin-top: 50px;
+}
+
+.footer-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff; /* White text for footer */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Full width for cards on smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .heading {
+    font-size: 2.5rem; /* Slightly smaller heading for mobile */
+  }
+
+  .subheading {
+    font-size: 1.2rem; /* Smaller subheading for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%; /* Full width cards on smaller screens */
+    padding: 15px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .heading {
+    font-size: 2rem; /* Even smaller heading on very small screens */
+  }
+
+  .subheading {
+    font-size: 1rem; /* Further smaller subheading on very small screens */
+  }
+}

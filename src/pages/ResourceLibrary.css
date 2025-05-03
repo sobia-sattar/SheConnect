@@ -1,0 +1,71 @@
+.resource-library {
+        padding: 40px 20px;
+        background: linear-gradient(to right, #f7b7d1, #f46e82); /* Gradient background */
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        color: white;
+        font-family: 'Arial', sans-serif;
+        margin: 40px auto;
+        text-align: center;
+      }
+      
+      /* No changes to layout, text, or other elements here */
+      
+  
+  .section-title {
+    font-size: 2rem;
+    color: #d14d7a;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .section-description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .resource-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin: 10px 0;
+  }
+  
+  .resource-item h3 {
+    font-size: 1.5rem;
+    color: #d14d7a;
+    margin-bottom: 10px;
+  }
+  
+  .resource-description {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .read-more-link {
+    color: #d14d7a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .resource-item {
+      width: 100%;
+    }
+  }
+  
