@@ -71,7 +71,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Demo
-she-coonect.vercel.app
+https://she-coonect.vercel.app
 
 Acknowledgments
 ReactJS for powering the app.
